@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .profile-card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 300px;
+        }
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .profile-card h2 {
+            margin: 10px 0 5px;
+        }
+        .profile-card p {
+            color: #555;
+            margin: 5px 0;
+        }
+        .profile-card a {
+            display: inline-block;
+            padding: 8px 16px;
+            margin-top: 10px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .profile-card a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <h2>John Doe</h2>
+        <p>Web Developer | Tech Enthusiast</p>
+        <p>Location: New York, USA</p>
+        <p>Experience: 5 Years</p>
+        <p>Skills: HTML, CSS, JavaScript, React, Node.js</p>
+        <p>Hobbies: Reading, Traveling, Photography</p>
+        <a href="mailto:john.doe@example.com">Contact Me</a>
+    </div>
+</body>
+</html>
